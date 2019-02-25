@@ -1,3 +1,5 @@
+package ap;
+
 public class Calculator {
 	
     private final String name;
@@ -11,7 +13,8 @@ public class Calculator {
      *          or smaller than 2.
      **/
     public Calculator(String name) {
-        // ...
+        if (name == null || name.length() < 2 || name.length() > 5) throw new IllegalArgumentException("no name");
+        this.name = name;
     }
     
     /**
@@ -24,7 +27,9 @@ public class Calculator {
      * @returns the result of this operation.
      **/
     public Integer sum(Integer a, Integer b) {
-        // ...
+        if (a == null)
+            a = 0;
+        return a + b;
     }
 
     /**
@@ -38,13 +43,13 @@ public class Calculator {
      * @throws IllegalArgumentException if b is 0.
       **/
     public Integer divide(Integer a, Integer b) {
-        // ...
+        return a / b;
     }
 
     /**
      * @returns the name of this calculator
      **/
     public String getName() {
-        // ...
+        return name;
     }
 }
