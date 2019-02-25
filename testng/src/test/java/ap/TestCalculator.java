@@ -1,10 +1,11 @@
 package ap;
 import org.testng.annotations.Test;
-import org.testng.Assert.*;
+import static org.testng.Assert.*;
 
 public class TestCalculator {
     @Test
     public void sumTestCalculator() {
-        System.out.println(Calculator.sum(3,4));
+        ladida = new Calculator("casio");
+        System.out.println(casio.sum(3,4));
         }
 }
