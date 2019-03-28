@@ -1,4 +1,4 @@
-package ap;
+package tvs19;
 
 public class Calculator {
 	
@@ -13,7 +13,7 @@ public class Calculator {
      *          or smaller than 2.
      **/
     public Calculator(String name) {
-        if (name == null || name.length() < 2 || name.length() > 5) throw new IllegalArgumentException("no name");
+        // if (name == null || name.length() < 2 || name.length() > 5) throw new IllegalArgumentException("no name");
         this.name = name;
     }
     
