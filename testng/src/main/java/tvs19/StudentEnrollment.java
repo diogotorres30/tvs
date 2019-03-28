@@ -62,7 +62,7 @@ public class StudentEnrollment {
     void setResult(Course c, Result r) throws InvalidInvocationException {
         if(this.enrollmentMode == EnrollmentMode.ENROLLED){
             if(enrolledCourses.contains(c)){
-                this.enrolledCourses.get(enrolledCourses.indexOf(c)).result = r;
+                this.enrolledCourses.get(enrolledCourses.indexOf(c)).setResult(r);
             }
         }
         else{
