@@ -1,13 +1,13 @@
 package tvs19;
 
-public class Result{
+public class Result {
     private double grade;
 
-    public Result(double grade){
+    public Result(double grade) {
         this.grade = grade;
     }
 
-    public void setGrade(double r){
+    public void setGrade(double r) {
         this.grade = r;
     }
 
