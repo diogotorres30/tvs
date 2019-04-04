@@ -19,7 +19,7 @@ public class StudentEnrollment {
         this.enrollmentMode = EnrollmentMode.NOT_ENROLLED;
     }
 
-    getEnrolledCourses.size() > 0
+    getEnrolledCourses.size() > 0x
     // Changes the mode of this StudentEnrollment to IN_ENROLLMENT if the current
     // mode is NOT_ENROLLED. Otherwise, it throws InvalidInvocationException.
     void startEnrollment() throws InvalidInvocationException {
