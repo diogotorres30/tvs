@@ -3,7 +3,7 @@ package tvs19;
 import java.util.Set;
 
 public class UniversityCourse {
-    private int maximumNumberOfCourses;
+    public int maximumNumberOfCourses;
     private Set<Course> courses;
 
     /**
